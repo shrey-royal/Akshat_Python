@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Task 1</h1>
+        <form action="submit.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+          
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+          
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+            <br><br>
+          
+          
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea>
+            <br><br>
+          
+          
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+              <option value="">Select your gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+            <br><br>
+          
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+          
+            <label for="interests">Interests:</label>
+            <input type="checkbox" id="music" name="interests[]" value="music">
+            <label for="music">Music</label>
+            <input type="checkbox" id="books" name="interests[]" value="books">
+            <label for="books">Books</label>
+            <input type="checkbox" id="sports" name="interests[]" value="sports">
+            <label for="sports">Sports</label>
+            <br><br>
+          
+            <label for="feedback">Feedback:</label>
+            <input type="radio" id="satisfied" name="feedback" value="satisfied">
+            <label for="satisfied">Satisfied</label>
+            <input type="radio" id="neutral" name="feedback" value="neutral">
+            <label for="neutral">Neutral</label>
+            <input type="radio" id="dissatisfied" name="feedback" value="dissatisfied">
+            <label for="dissatisfied">Dissatisfied</label>
+            <br><br>
+          
+            <label for="job">Current Job:</label>
+            <input type="text" id="job" name="job">
+            <br><br>
+          
+            <label for="education">Education:</label>
+            <select id="education" name="education">
+              <option value="">Select your highest level of education</option>
+              <option value="highschool">High School</option>
+              <option value="associate">Associate Degree</option>
+              <option value="bachelor">Bachelor's Degree</option>
+              <option value="master">Master's Degree</option>
+              <option value="doctorate">Doctorate Degree</option>
+            </select>
+            <br><br>
+          
+            <label for="income">Annual Income:</label>
+            <input type="number" id="income" name="income">
+            <br><br>
+          
+            <label for="howdidyouhear">How did you hear about us?</label>
+            <select id="howdidyouhear" name="howdidyouhear">
+              <option value="">Select an option</option>
+              <option value="wordofmouth">Word of mouth</option>
+              <option value="socialmedia">Social media</option>
+              <option value="internet">Internet search</option>
+              <option value="advertisement">Advertisement</option>
+              <option value="other">Other</option>
+            </select>
+            <br><br>
+          
+            <button type="submit">Submit</button>
+          
+          
+    </center>
+</body>
+</html>
