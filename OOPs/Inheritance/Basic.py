@@ -11,9 +11,9 @@ class childclass (Parentclass1, Parentclass2, Parentclass3):
 in python we have 5 types of inheritance:
 
 1. Single Inheritance -> one parent class and one child class
-2. Multiple Inheritance -> one parent class and multiple child class
+2. Multiple Inheritance -> multiple parent class and one child class
 3. Multilevel Inheritance -> one parent class and child class(child class is also parent class for another child class)
-4. Hierarchical Inheritance -> multiple parent class and one child class
+4. Hierarchical Inheritance -> one parent class and multiple child class
 5. Hybrid Inheritance -> combination of multiple and multilevel inheritance
 
 '''

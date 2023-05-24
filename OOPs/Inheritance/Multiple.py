@@ -1,9 +1,4 @@
-'''
-Multiple Inheritance: 
-    - one parent class and multiple child class
-    - class ChildClass(ParentClass1, ParentClass2, ParentClass3, ...):
-
-'''
+# Hierarchical Inheritance -> one parent class and multiple child class
 
 class Animal:
     # class attributes
